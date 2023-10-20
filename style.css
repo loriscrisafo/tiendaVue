@@ -1,0 +1,34 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+#app{
+    display: flex;
+}
+
+
+li{
+    float: left;
+    margin: 5%;
+    border: 1px solid;
+    list-style: none;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+}
+
+#llista{
+    width: 60%;
+}
+#carrito{
+    margin-top: 10%;
+    width: 60%;
+
+}
+
+.hidden{
+    display: none;
+}
+#total{
+    font-size: 1cm;
+}

@@ -1,0 +1,119 @@
+{
+    "zapatos_nike": [
+      {
+        "modelo": "Air Max 90",
+        "talla": "42",
+        "color": "Negro/Blanco",
+        "precio": 150.00
+      },
+      {
+        "modelo": "Air Force 1",
+        "talla": "40",
+        "color": "Blanco",
+        "precio": 120.00
+      },
+      {
+        "modelo": "React Infinity Run",
+        "talla": "43",
+        "color": "Azul",
+        "precio": 130.00
+      },
+      {
+        "modelo": "Air Zoom Pegasus",
+        "talla": "41",
+        "color": "Rojo",
+        "precio": 140.00
+      },
+      {
+        "modelo": "Blazer Low",
+        "talla": "44",
+        "color": "Gris",
+        "precio": 110.00
+      },
+      {
+        "modelo": "Air Max 270",
+        "talla": "39",
+        "color": "Negro/Rojo",
+        "precio": 160.00
+      },
+      {
+        "modelo": "Cortez",
+        "talla": "42",
+        "color": "Blanco/Azul",
+        "precio": 100.00
+      },
+      {
+        "modelo": "Free Run",
+        "talla": "41",
+        "color": "Gris/Amarillo",
+        "precio": 120.00
+      },
+      {
+        "modelo": "Air Max 95",
+        "talla": "43",
+        "color": "Negro/Rojo",
+        "precio": 170.00
+      },
+      {
+        "modelo": "Air Max 270 React",
+        "talla": "40",
+        "color": "Azul/Verde",
+        "precio": 160.00
+      },
+      {
+        "modelo": "Air Zoom Vomero",
+        "talla": "42",
+        "color": "Negro/Amarillo",
+        "precio": 140.00
+      },
+      {
+        "modelo": "Air Max 200",
+        "talla": "41",
+        "color": "Blanco/Negro",
+        "precio": 130.00
+      },
+      {
+        "modelo": "Air Huarache",
+        "talla": "39",
+        "color": "Negro",
+        "precio": 130.00
+      },
+      {
+        "modelo": "Epic React Flyknit",
+        "talla": "44",
+        "color": "Gris/Blanco",
+        "precio": 150.00
+      },
+      {
+        "modelo": "Air Max Plus",
+        "talla": "42",
+        "color": "Negro/Verde",
+        "precio": 160.00
+      },
+      {
+        "modelo": "Joyride Run Flyknit",
+        "talla": "41",
+        "color": "Azul/Blanco",
+        "precio": 170.00
+      },
+      {
+        "modelo": "Air Max 97",
+        "talla": "43",
+        "color": "Negro/Plata",
+        "precio": 180.00
+      },
+      {
+        "modelo": "Air Max 2090",
+        "talla": "39",
+        "color": "Blanco/Rojo",
+        "precio": 150.00
+      },
+      {
+        "modelo": "Revolution 5",
+        "talla": "44",
+        "color": "Gris/Azul",
+        "precio": 110.00
+      }
+    ]
+  }
+  

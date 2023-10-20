@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <ul id="lista">
+            <li v-for="(actual, index) in sabates">
+                <h2>{{ actual.modelo }}</h2>
+                <p>{{actual.color}}</p>
+                <p>Preu/u: {{actual.precio}}€</p>
+
+                <button @click="afegir(actual)">+</button>
+            </li>
+        </ul>
+
+        <ul id="carrito">
+            <h1>Carrito</h1>
+            <li v-for="(actual, index) in carrito">
+                <h2>{{ actual.modelo }}</h2>
+                <p>{{actual.color}}</p>
+                <p>Cantidad: {{actual.cantidad}}</p>
+                <p>Preu/u: {{actual.precio}}€</p>
+
+                <button @click="eliminar(actual)">-</button>
+            </li>
+            <button id="btnCheckout" @click="checkout">Checkout</button>
+        </ul>
+        <div id="checkout" class="hidden">
+
+            <ul class="carrito">
+                <h2>Carrito</h2>
+                <li v-for="(actual, index) in carrito">
+                    <h2 :id="index">{{ actual.modelo }}</h2>
+                    <p>{{actual.color}}</p>
+                    <p>Cantidad: {{actual.cantidad}}</p>
+                    <p>Preu/u: {{actual.precio}}€</p>
+                    <p>Preu: {{actual.precio*actual.cantidad}}€</p>
+
+                </li>
+            </ul>
+            <p id="total">Total: </p>
+
+        </div>
+    </div>
+
+    <script src="js/functions.js" type="module"> </script>
+
+</body>
+
+</html>
